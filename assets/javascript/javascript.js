@@ -37,7 +37,7 @@ function loser(){
 alert ("You lose!");
   losses++;
   $('#numberLosses').text(losses);
-  reset()
+  reset();
 }
   $('#one').on ('click', function(){
     userTotal = userTotal + num1;

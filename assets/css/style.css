@@ -1,10 +1,14 @@
+*{
+	text-align: center;
+}
 body{
-	background-image: url("../images/background.png")
+	background-image: url("../images/background.png");
+	
 }
 div{
 	background-color: white;
 	margin: 10px;
-	width: 25%
+	width: 25%;
 }
 div{
 	padding: 10px;
@@ -16,6 +20,7 @@ h1, h3, span{
 }
 h1{
 	font-size: 30pt;
+	color: white;
 }
 ul{
 	list-style: disc inside;
@@ -24,13 +29,29 @@ ul{
 div.header{
 	background-color: #ff8533;
 }
+.instructions{
+	color: green;
+	background-color: #ffe6cc;
+	font-weight: bold;
+
+}
 div.header, div.instructions{
 	width: 50%;
+	
+}
+.numberToMatch{
+	color: purple;
+	background-color: #00cc7a;
+	font-size: 40px;
+	width: 20%;
+}
+.winsAndLosses{
+	background-color: #1affff;
+	width: 10%;
 }
 .numberToMatch, .winsAndLosses{
 	float: left;
-	width: 15%;
-	height: 60px;
+	height: 100px;
 }
 .userTotal{
 	width: 15%;

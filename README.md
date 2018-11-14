@@ -1,4 +1,4 @@
-Crystals Collector Game
+Crystals Collector Game!
 
 This is a simple guessing game where the user needs to match their total crystal score to the target score.
 
