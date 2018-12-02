@@ -2,5 +2,42 @@
 	text-align: center;
 }
 body{
-	background-image: url("../images/background.png");	
+	background-image: url("../images/background.jpeg");
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+.jumbotron {
+	background-color: black;
+	height:100px;
+	color: white;
+	padding: 0;
+}
+.rules {
+	background-color: black;
+	color: white;
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+}
+.infoBox {
+	background-color: black;
+	color: white;
+	float: right;
+	margin: auto;
+	width: 30%;
+	
+}
+
+.crystalDisplay {
+	clear: both;
+	background-color: white;
+	width: 50%;
+	margin: auto;
+}
+
+#targetDisplay, #scoreDisplay {
+	font-size: 25px;
+	font-weight: bold;
 }
